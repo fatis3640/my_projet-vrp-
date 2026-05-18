@@ -13,7 +13,7 @@ def plot_routes(routes, coords, names):
 
         plt.plot(x, y, marker='o', label=f"Truck {i+1}")
 
-    # أسماء المناطق
+    # Noms de zones
     for i, (x, y) in enumerate(coords):
         plt.text(x, y, names[i])
 
@@ -21,7 +21,7 @@ def plot_routes(routes, coords, names):
     plt.legend()
     plt.grid()
 
-    # 🔥 حفظ الصورة
+    # Enregistrer la figure
     plt.savefig("vrp_result.png")
 
     plt.show()

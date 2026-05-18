@@ -14,7 +14,7 @@ names = [
     "Kebett"
 ]
 
-# إحداثيات فقط للرسم (تقديرية)
+# Coordonnees uniquement pour le dessin
 coords = [
     (0, 0),
     (2, 3),
